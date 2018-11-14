@@ -1,0 +1,30 @@
+//  Generic
+.brew {
+  color: get-color(brew);
+}
+.delayable {
+  color: get-color(delayable);
+}
+
+//  Task Board
+div#current-week {
+  background: repeating-linear-gradient(-45deg, $primary-color, $primary-color 10px, scale-color($primary-color, $lightness: -25%) 10px, scale-color($primary-color, $lightness: -25%) 20px);
+  padding: rem-calc(8);
+}
+div.task-type {
+  padding: 0.5rem 0;
+}
+div.task-title, div.monday, div.tuesday, div.wednesday, div.thursday, div.friday, div.saturday, div.sunday {
+  background: $black;
+  padding: rem-calc(5 10);
+  // border: 1px $white solid;
+}
+div.task-checkbox {
+  padding-right: rem-calc(10);
+}
+div.current-day {
+  background: $secondary-color;
+}
+
+//  X-Editable
+@import '//cdnjs.cloudflare.com/ajax/libs/x-editable/1.5.0/jquery-editable/css/jquery-editable.css';

@@ -1957,6 +1957,13 @@
 		"rFN": 0,
 		"uCM": 0
 		},
+	"/readme.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/readme.html",
+		"oF": 0
+		},
 	"/readme.md": {
 		"cB": 0,
 		"cS": 0,
@@ -2029,6 +2036,19 @@
 		"oA": 0,
 		"oAP": "/resources/lang/en/validation.php",
 		"oF": 0
+		},
+	"/resources/sass/_main.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/resources/sass/_main.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
 		},
 	"/resources/sass/_settings.scss": {
 		"aP": 0,
