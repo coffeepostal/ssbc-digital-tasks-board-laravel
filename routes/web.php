@@ -14,3 +14,7 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('/task-board', function(){
+    return view('pages.task-board');
+});

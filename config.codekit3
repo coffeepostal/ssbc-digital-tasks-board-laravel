@@ -2083,6 +2083,13 @@
 		"oAP": "/resources/views/layouts/app.blade.php",
 		"oF": 0
 		},
+	"/resources/views/pages/task-board.blade.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/resources/views/pages/task-board.blade.php",
+		"oF": 0
+		},
 	"/resources/views/welcome.blade.php": {
 		"cB": 0,
 		"ft": 8192,
@@ -2172,11 +2179,39 @@
 		"oAP": "/storage/framework/views/.gitignore",
 		"oF": 0
 		},
+	"/storage/framework/views/1e55e0d7b4ce55d0eb10587950aad957f2059e34.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/storage/framework/views/1e55e0d7b4ce55d0eb10587950aad957f2059e34.php",
+		"oF": 0
+		},
+	"/storage/framework/views/2b9d5af999c25567731ef28f1e6e6f3b055e42b7.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/storage/framework/views/2b9d5af999c25567731ef28f1e6e6f3b055e42b7.php",
+		"oF": 0
+		},
 	"/storage/framework/views/38829906e25a2671b2b9363e41ad58ecacc710f6.php": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "/storage/framework/views/38829906e25a2671b2b9363e41ad58ecacc710f6.php",
+		"oF": 0
+		},
+	"/storage/framework/views/587f95add3a938613d7ef70c020dc91c220a160e.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/storage/framework/views/587f95add3a938613d7ef70c020dc91c220a160e.php",
+		"oF": 0
+		},
+	"/storage/framework/views/868bba3faed92c03b714cbe39944a780fe6e352e.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/storage/framework/views/868bba3faed92c03b714cbe39944a780fe6e352e.php",
 		"oF": 0
 		},
 	"/storage/logs": {
