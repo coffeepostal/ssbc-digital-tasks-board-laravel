@@ -205,6 +205,13 @@
 		"oAP": "/app/Providers/RouteServiceProvider.php",
 		"oF": 0
 		},
+	"/app/Task.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/app/Task.php",
+		"oF": 0
+		},
 	"/app/User.php": {
 		"cB": 0,
 		"ft": 8192,
@@ -366,11 +373,25 @@
 		"oAP": "/database/migrations/2014_10_12_100000_create_password_resets_table.php",
 		"oF": 0
 		},
+	"/database/migrations/2018_11_19_002425_create_tasks_table.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/database/migrations/2018_11_19_002425_create_tasks_table.php",
+		"oF": 0
+		},
 	"/database/seeds/DatabaseSeeder.php": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "/database/seeds/DatabaseSeeder.php",
+		"oF": 0
+		},
+	"/db_backup-2018-11-21.sql": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/db_backup-2018-11-21.sql",
 		"oF": 0
 		},
 	"/node_modules": {
