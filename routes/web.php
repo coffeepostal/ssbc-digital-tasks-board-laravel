@@ -15,6 +15,4 @@ Route::get('/', 'PagesController@index');
 Route::get('/task-board', 'PagesController@task_board');
 Route::get('/brew-details', 'PagesController@brew_details');
 
-// Route::get('/task-board', function () {
-//     return view('pages.task-board');
-// });
+Route::resource('tasks', 'TasksController');

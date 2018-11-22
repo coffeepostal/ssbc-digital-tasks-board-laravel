@@ -2139,6 +2139,20 @@
 		"oAP": "/resources/views/pages/task-board.blade.php",
 		"oF": 0
 		},
+	"/resources/views/tasks/index.blade.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/resources/views/tasks/index.blade.php",
+		"oF": 0
+		},
+	"/resources/views/tasks/show.blade.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/resources/views/tasks/show.blade.php",
+		"oF": 0
+		},
 	"/resources/views/welcome.blade.php": {
 		"cB": 0,
 		"ft": 8192,
@@ -2275,6 +2289,20 @@
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "/storage/framework/views/868bba3faed92c03b714cbe39944a780fe6e352e.php",
+		"oF": 0
+		},
+	"/storage/framework/views/cbeddd1d389022ce79e0cb25b73c210cdf457eeb.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/storage/framework/views/cbeddd1d389022ce79e0cb25b73c210cdf457eeb.php",
+		"oF": 0
+		},
+	"/storage/framework/views/d9b34020cc0fa7c1805792ee8b1a7b977afa8cf3.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/storage/framework/views/d9b34020cc0fa7c1805792ee8b1a7b977afa8cf3.php",
 		"oF": 0
 		},
 	"/storage/logs": {
