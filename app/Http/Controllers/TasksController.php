@@ -14,7 +14,12 @@ class TasksController extends Controller
      */
     public function index()
     {
-        $tasks = Task::all();
+        // $tasks = Task::all();    //  Return all tasks
+        // return Task::where('user_creator', 'coffeepostal')->get();; //  Returns all tasks craeted by "coffeepostal"
+        // $tasks = Task::orderBy('date', 'asc')->take(1)->get();  //  Returns only the first task
+        // $tasks = Task::orderBy('date', 'asc')->paginate(12);    //  Paginate after 12 tasks, add {{$tasks->links()}} in Blade template where you want the pagination links
+
+        $tasks = Task::orderBy('date', 'asc')->get();
         return view('tasks.index')->with('tasks', $tasks);
     }
 
