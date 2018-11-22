@@ -13,7 +13,7 @@
                 <a href="/tasks/{{$task->id}}" class="button">ID: {{$task->id}}</a>
             </div>
         @endforeach
-        
+
         </div>
     @else
         <p>No tasks found.</p>

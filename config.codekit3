@@ -2139,6 +2139,13 @@
 		"oAP": "/resources/views/pages/task-board.blade.php",
 		"oF": 0
 		},
+	"/resources/views/tasks/create.blade.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/resources/views/tasks/create.blade.php",
+		"oF": 0
+		},
 	"/resources/views/tasks/index.blade.php": {
 		"cB": 0,
 		"ft": 8192,
@@ -2303,6 +2310,13 @@
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "/storage/framework/views/cbeddd1d389022ce79e0cb25b73c210cdf457eeb.php",
+		"oF": 0
+		},
+	"/storage/framework/views/d8dac64592b6952db88bfc7f92d0f7733f01b86e.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/storage/framework/views/d8dac64592b6952db88bfc7f92d0f7733f01b86e.php",
 		"oF": 0
 		},
 	"/storage/framework/views/d9b34020cc0fa7c1805792ee8b1a7b977afa8cf3.php": {
@@ -15717,6 +15731,113 @@
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "/vendor/laravel/tinker/src/TinkerServiceProvider.php",
+		"oF": 0
+		},
+	"/vendor/laravelcollective/html/composer.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "/vendor/laravelcollective/html/composer-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"/vendor/laravelcollective/html/CONTRIBUTING.md": {
+		"cB": 0,
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 0,
+		"oAP": "/vendor/laravelcollective/html/CONTRIBUTING.html",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"/vendor/laravelcollective/html/LICENSE.txt": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/vendor/laravelcollective/html/LICENSE.txt",
+		"oF": 0
+		},
+	"/vendor/laravelcollective/html/readme.md": {
+		"cB": 0,
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 0,
+		"oAP": "/vendor/laravelcollective/html/readme.html",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"/vendor/laravelcollective/html/src/Componentable.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/vendor/laravelcollective/html/src/Componentable.php",
+		"oF": 0
+		},
+	"/vendor/laravelcollective/html/src/Eloquent/FormAccessible.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/vendor/laravelcollective/html/src/Eloquent/FormAccessible.php",
+		"oF": 0
+		},
+	"/vendor/laravelcollective/html/src/FormBuilder.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/vendor/laravelcollective/html/src/FormBuilder.php",
+		"oF": 0
+		},
+	"/vendor/laravelcollective/html/src/FormFacade.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/vendor/laravelcollective/html/src/FormFacade.php",
+		"oF": 0
+		},
+	"/vendor/laravelcollective/html/src/helpers.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/vendor/laravelcollective/html/src/helpers.php",
+		"oF": 0
+		},
+	"/vendor/laravelcollective/html/src/HtmlBuilder.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/vendor/laravelcollective/html/src/HtmlBuilder.php",
+		"oF": 0
+		},
+	"/vendor/laravelcollective/html/src/HtmlFacade.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/vendor/laravelcollective/html/src/HtmlFacade.php",
+		"oF": 0
+		},
+	"/vendor/laravelcollective/html/src/HtmlServiceProvider.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/vendor/laravelcollective/html/src/HtmlServiceProvider.php",
 		"oF": 0
 		},
 	"/vendor/league/flysystem/composer.json": {
