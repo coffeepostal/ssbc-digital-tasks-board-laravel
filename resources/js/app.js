@@ -34,3 +34,6 @@ Vue.component('example-component', require('./components/ExampleComponent.vue'))
 const app = new Vue({
     el: '#app'
 });
+
+//  Test Browser Support of Date Input, and Replace It If it Fails
+if ( $('#test')[0].type != 'date' ) $('#form-create-date').datepicker();

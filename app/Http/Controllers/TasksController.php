@@ -41,7 +41,13 @@ class TasksController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        $this->validate($request, [
+            'task_type' => 'required',
+            'date' => 'required',
+            'user_assigned' => 'required'
+        ]);
+
+        return '123';
     }
 
     /**
