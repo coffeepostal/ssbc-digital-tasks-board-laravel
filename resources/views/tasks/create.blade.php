@@ -2,7 +2,9 @@
 
 @section('content')
 
-    <h1>Create Task</h1>
+    <div class="grid-container">
+        <h1>Create Task</h1>
+    </div>
 
     {!! Form::open(['action' => 'TasksController@store', 'method' => 'POST']) !!}
 
@@ -45,6 +47,7 @@
                 {{Form::text('description', null, ['placeholder' => 'eg: brew style, count, task description, etc.'])}}
             </div>
             <div class="small-12 cell">
+                {{Form::hidden('user_creator', 'coffeepostal')}}
                 {{Form::submit('Create Task', ['class' => 'button expanded large'])}}
             </div>
         </div>

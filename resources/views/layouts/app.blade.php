@@ -11,6 +11,7 @@
 </head>
 <body>
 
+    @include('inc.messages')
     @yield('content')
 
     <script src="{{asset('js/app.js')}}" type="text/javascript"></script>

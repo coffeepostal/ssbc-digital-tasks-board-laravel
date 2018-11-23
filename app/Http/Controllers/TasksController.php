@@ -47,7 +47,22 @@ class TasksController extends Controller
             'user_assigned' => 'required'
         ]);
 
-        return '123';
+        //  Create Task
+        $task = new Task;
+        $task->task_type = $request->input('task_type');
+        $task->date = $request->input('date');
+        $task->brew_number = $request->input('brew_number');
+        $task->tank_base = $request->input('tank_base');
+        $task->tank_alt = $request->input('tank_alt');
+        $task->user_assigned = $request->input('user_assigned');
+        $task->user_creator = $request->input('user_creator');
+        $task->description = $request->input('description');
+        $task->delayable = $request->input('delayable');
+        $task->completed = $request->input('completed');
+
+        $task->save();
+
+        return redirect('/tasks')->with('success', 'Task created.');
     }
 
     /**
