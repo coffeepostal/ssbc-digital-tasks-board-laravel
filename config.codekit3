@@ -2153,6 +2153,13 @@
 		"oAP": "/resources/views/tasks/create.blade.php",
 		"oF": 0
 		},
+	"/resources/views/tasks/edit.blade.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/resources/views/tasks/edit.blade.php",
+		"oF": 0
+		},
 	"/resources/views/tasks/index.blade.php": {
 		"cB": 0,
 		"ft": 8192,
@@ -2317,6 +2324,13 @@
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "/storage/framework/views/868bba3faed92c03b714cbe39944a780fe6e352e.php",
+		"oF": 0
+		},
+	"/storage/framework/views/c4cf9895c85057b176a7e0cadee85c892651c7e3.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/storage/framework/views/c4cf9895c85057b176a7e0cadee85c892651c7e3.php",
 		"oF": 0
 		},
 	"/storage/framework/views/cbeddd1d389022ce79e0cb25b73c210cdf457eeb.php": {

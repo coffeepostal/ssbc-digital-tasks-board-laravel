@@ -62,7 +62,7 @@ class TasksController extends Controller
 
         $task->save();
 
-        return redirect('/tasks')->with('success', 'Task created.');
+        return redirect('/tasks')->with('success', 'Task Created');
     }
 
     /**
@@ -85,7 +85,8 @@ class TasksController extends Controller
      */
     public function edit($id)
     {
-        //
+        $task = Task::find($id);
+        return view('tasks.edit')->with('task', $task);
     }
 
     /**
@@ -97,7 +98,28 @@ class TasksController extends Controller
      */
     public function update(Request $request, $id)
     {
-        //
+        $this->validate($request, [
+            'task_type' => 'required',
+            'date' => 'required',
+            'user_assigned' => 'required'
+        ]);
+
+        //  Create Task
+        $task = Task::find($id);
+        $task->task_type = $request->input('task_type');
+        $task->date = $request->input('date');
+        $task->brew_number = $request->input('brew_number');
+        $task->tank_base = $request->input('tank_base');
+        $task->tank_alt = $request->input('tank_alt');
+        $task->user_assigned = $request->input('user_assigned');
+        $task->user_creator = $request->input('user_creator');
+        $task->description = $request->input('description');
+        $task->delayable = $request->input('delayable');
+        $task->completed = $request->input('completed');
+
+        $task->save();
+
+        return redirect('/tasks')->with('success', 'Task Updated');
     }
 
     /**
@@ -108,6 +130,8 @@ class TasksController extends Controller
      */
     public function destroy($id)
     {
-        //
+        $task = Task::find($id);
+        $task->delete();
+        return redirect('/tasks')->with('success', 'Task Removed');
     }
 }

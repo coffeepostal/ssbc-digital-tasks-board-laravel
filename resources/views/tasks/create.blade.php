@@ -32,7 +32,7 @@
             </div>
             <div class="small-8 medium-8 large-2 cell">
                 {{Form::label('user_assigned', 'Assigned Employee')}}
-                {{Form::select('user_assigned', ['1' => 'Adam Farnsworth', '2' => 'Shannon Vincent', '3' => 'Tor Flemming', '4' => 'Stacia Sasso'], null, ['placeholder' => 'Assign someone...'])}}
+                {{Form::select('user_assigned', [1 => 'Adam Farnsworth', 2 => 'Shannon Vincent', 3 => 'Tor Flemming', 4 => 'Stacia Sasso'], null, ['placeholder' => 'Assign someone...'])}}
             </div>
             <div class="small-2 medium-2 large-1 cell">
                 {{Form::label('delayable', 'Delayable')}}
