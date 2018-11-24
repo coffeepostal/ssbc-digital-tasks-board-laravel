@@ -16,3 +16,7 @@ Route::get('/task-board', 'PagesController@task_board');
 Route::get('/brew-details', 'PagesController@brew_details');
 
 Route::resource('tasks', 'TasksController');
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');

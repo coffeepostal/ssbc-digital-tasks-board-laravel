@@ -100,6 +100,13 @@
 		"oAP": "/app/Http/Controllers/Controller.php",
 		"oF": 0
 		},
+	"/app/Http/Controllers/HomeController.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/app/Http/Controllers/HomeController.php",
+		"oF": 0
+		},
 	"/app/Http/Controllers/PagesController.php": {
 		"cB": 0,
 		"ft": 8192,
@@ -1910,6 +1917,16 @@
 		"oAP": "/public/index.php",
 		"oF": 0
 		},
+	"/public/js/app-min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/public/js/app-min-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 1
+		},
 	"/public/js/app.js": {
 		"ft": 64,
 		"ma": 0,
@@ -1918,7 +1935,7 @@
 		"oAP": "/public/js/app-min.js",
 		"oF": 0,
 		"sC": 3,
-		"tS": 0
+		"tS": 1
 		},
 	"/public/robots.txt": {
 		"cB": 0,
@@ -2022,10 +2039,10 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "/resources/js/app-min.js",
-		"oF": 0,
+		"oAP": "/public/js/app-min.js",
+		"oF": 2,
 		"sC": 3,
-		"tS": 0
+		"tS": 1
 		},
 	"/resources/js/components/ExampleComponent.vue": {
 		"cB": 0,
@@ -2038,11 +2055,11 @@
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "/resources/js/foundation-min.js",
 		"oF": 0,
 		"sC": 3,
-		"tS": 0
+		"tS": 1
 		},
 	"/resources/lang/en/auth.php": {
 		"cB": 0,
@@ -2111,11 +2128,60 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"/resources/views/auth/login.blade.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/resources/views/auth/login.blade.php",
+		"oF": 0
+		},
+	"/resources/views/auth/passwords/email.blade.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/resources/views/auth/passwords/email.blade.php",
+		"oF": 0
+		},
+	"/resources/views/auth/passwords/reset.blade.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/resources/views/auth/passwords/reset.blade.php",
+		"oF": 0
+		},
+	"/resources/views/auth/register.blade.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/resources/views/auth/register.blade.php",
+		"oF": 0
+		},
+	"/resources/views/auth/verify.blade.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/resources/views/auth/verify.blade.php",
+		"oF": 0
+		},
+	"/resources/views/home.blade.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/resources/views/home.blade.php",
+		"oF": 0
+		},
 	"/resources/views/inc/messages.blade.php": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "/resources/views/inc/messages.blade.php",
+		"oF": 0
+		},
+	"/resources/views/inc/topbar.blade.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/resources/views/inc/topbar.blade.php",
 		"oF": 0
 		},
 	"/resources/views/layouts/app.blade.php": {
@@ -2270,6 +2336,13 @@
 		"oAP": "/storage/framework/views/0849a2b2baac6fdd41e346df1c8fed777b5f6822.php",
 		"oF": 0
 		},
+	"/storage/framework/views/1e3a59531d1421eed033c8f51c34729a321eec7a.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/storage/framework/views/1e3a59531d1421eed033c8f51c34729a321eec7a.php",
+		"oF": 0
+		},
 	"/storage/framework/views/1e55e0d7b4ce55d0eb10587950aad957f2059e34.php": {
 		"cB": 0,
 		"ft": 8192,
@@ -2324,6 +2397,13 @@
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "/storage/framework/views/868bba3faed92c03b714cbe39944a780fe6e352e.php",
+		"oF": 0
+		},
+	"/storage/framework/views/a22efc344173a3bdba8edd2884bb48e0416b288a.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/storage/framework/views/a22efc344173a3bdba8edd2884bb48e0416b288a.php",
 		"oF": 0
 		},
 	"/storage/framework/views/c4cf9895c85057b176a7e0cadee85c892651c7e3.php": {
@@ -3699,7 +3779,7 @@
 		"oAP": "/vendor/filp/whoops/src/Whoops/Resources/js/clipboard.min-min.js",
 		"oF": 0,
 		"sC": 3,
-		"tS": 0
+		"tS": 1
 		},
 	"/vendor/filp/whoops/src/Whoops/Resources/js/prettify.min.js": {
 		"ft": 64,
@@ -3709,7 +3789,7 @@
 		"oAP": "/vendor/filp/whoops/src/Whoops/Resources/js/prettify.min-min.js",
 		"oF": 0,
 		"sC": 3,
-		"tS": 0
+		"tS": 1
 		},
 	"/vendor/filp/whoops/src/Whoops/Resources/js/whoops.base.js": {
 		"ft": 64,
@@ -3719,7 +3799,7 @@
 		"oAP": "/vendor/filp/whoops/src/Whoops/Resources/js/whoops.base-min.js",
 		"oF": 0,
 		"sC": 3,
-		"tS": 0
+		"tS": 1
 		},
 	"/vendor/filp/whoops/src/Whoops/Resources/js/zepto.min.js": {
 		"ft": 64,
@@ -3729,7 +3809,7 @@
 		"oAP": "/vendor/filp/whoops/src/Whoops/Resources/js/zepto.min-min.js",
 		"oF": 0,
 		"sC": 3,
-		"tS": 0
+		"tS": 1
 		},
 	"/vendor/filp/whoops/src/Whoops/Resources/views/env_details.html.php": {
 		"cB": 0,
@@ -11978,7 +12058,7 @@
 		"oAP": "/vendor/laravel/framework/src/Illuminate/Foundation/Console/Presets/none-stubs/app-min.js",
 		"oF": 0,
 		"sC": 3,
-		"tS": 0
+		"tS": 1
 		},
 	"/vendor/laravel/framework/src/Illuminate/Foundation/Console/Presets/none-stubs/bootstrap.js": {
 		"ft": 64,
@@ -11988,7 +12068,7 @@
 		"oAP": "/vendor/laravel/framework/src/Illuminate/Foundation/Console/Presets/none-stubs/bootstrap-min.js",
 		"oF": 0,
 		"sC": 3,
-		"tS": 0
+		"tS": 1
 		},
 	"/vendor/laravel/framework/src/Illuminate/Foundation/Console/Presets/None.php": {
 		"cB": 0,
@@ -12012,7 +12092,7 @@
 		"oAP": "/vendor/laravel/framework/src/Illuminate/Foundation/Console/Presets/react-stubs/app-min.js",
 		"oF": 0,
 		"sC": 3,
-		"tS": 0
+		"tS": 1
 		},
 	"/vendor/laravel/framework/src/Illuminate/Foundation/Console/Presets/react-stubs/Example.js": {
 		"ft": 64,
@@ -12022,7 +12102,7 @@
 		"oAP": "/vendor/laravel/framework/src/Illuminate/Foundation/Console/Presets/react-stubs/Example-min.js",
 		"oF": 0,
 		"sC": 3,
-		"tS": 0
+		"tS": 1
 		},
 	"/vendor/laravel/framework/src/Illuminate/Foundation/Console/Presets/react-stubs/webpack.mix.js": {
 		"ft": 64,
@@ -12032,7 +12112,7 @@
 		"oAP": "/vendor/laravel/framework/src/Illuminate/Foundation/Console/Presets/react-stubs/webpack.mix-min.js",
 		"oF": 0,
 		"sC": 3,
-		"tS": 0
+		"tS": 1
 		},
 	"/vendor/laravel/framework/src/Illuminate/Foundation/Console/Presets/React.php": {
 		"cB": 0,
@@ -12049,7 +12129,7 @@
 		"oAP": "/vendor/laravel/framework/src/Illuminate/Foundation/Console/Presets/vue-stubs/app-min.js",
 		"oF": 0,
 		"sC": 3,
-		"tS": 0
+		"tS": 1
 		},
 	"/vendor/laravel/framework/src/Illuminate/Foundation/Console/Presets/vue-stubs/ExampleComponent.vue": {
 		"cB": 0,
@@ -12066,7 +12146,7 @@
 		"oAP": "/vendor/laravel/framework/src/Illuminate/Foundation/Console/Presets/vue-stubs/webpack.mix-min.js",
 		"oF": 0,
 		"sC": 3,
-		"tS": 0
+		"tS": 1
 		},
 	"/vendor/laravel/framework/src/Illuminate/Foundation/Console/Presets/Vue.php": {
 		"cB": 0,
@@ -26581,7 +26661,7 @@
 		"oAP": "/vendor/phpunit/php-code-coverage/src/Report/Html/Renderer/Template/js/bootstrap.min-min.js",
 		"oF": 0,
 		"sC": 3,
-		"tS": 0
+		"tS": 1
 		},
 	"/vendor/phpunit/php-code-coverage/src/Report/Html/Renderer/Template/js/d3.min.js": {
 		"ft": 64,
@@ -26591,7 +26671,7 @@
 		"oAP": "/vendor/phpunit/php-code-coverage/src/Report/Html/Renderer/Template/js/d3.min-min.js",
 		"oF": 0,
 		"sC": 3,
-		"tS": 0
+		"tS": 1
 		},
 	"/vendor/phpunit/php-code-coverage/src/Report/Html/Renderer/Template/js/file.js": {
 		"ft": 64,
@@ -26601,7 +26681,7 @@
 		"oAP": "/vendor/phpunit/php-code-coverage/src/Report/Html/Renderer/Template/js/file-min.js",
 		"oF": 0,
 		"sC": 3,
-		"tS": 0
+		"tS": 1
 		},
 	"/vendor/phpunit/php-code-coverage/src/Report/Html/Renderer/Template/js/jquery.min.js": {
 		"ft": 64,
@@ -26611,7 +26691,7 @@
 		"oAP": "/vendor/phpunit/php-code-coverage/src/Report/Html/Renderer/Template/js/jquery.min-min.js",
 		"oF": 0,
 		"sC": 3,
-		"tS": 0
+		"tS": 1
 		},
 	"/vendor/phpunit/php-code-coverage/src/Report/Html/Renderer/Template/js/nv.d3.min.js": {
 		"ft": 64,
@@ -26621,7 +26701,7 @@
 		"oAP": "/vendor/phpunit/php-code-coverage/src/Report/Html/Renderer/Template/js/nv.d3.min-min.js",
 		"oF": 0,
 		"sC": 3,
-		"tS": 0
+		"tS": 1
 		},
 	"/vendor/phpunit/php-code-coverage/src/Report/Html/Renderer/Template/js/popper.min.js": {
 		"ft": 64,
@@ -26631,7 +26711,7 @@
 		"oAP": "/vendor/phpunit/php-code-coverage/src/Report/Html/Renderer/Template/js/popper.min-min.js",
 		"oF": 0,
 		"sC": 3,
-		"tS": 0
+		"tS": 1
 		},
 	"/vendor/phpunit/php-code-coverage/src/Report/Html/Renderer/Template/method_item.html.dist": {
 		"cB": 0,
@@ -51399,7 +51479,7 @@
 		"oAP": "/vendor/symfony/var-dumper/Resources/js/htmlDescriptor-min.js",
 		"oF": 0,
 		"sC": 3,
-		"tS": 0
+		"tS": 1
 		},
 	"/vendor/symfony/var-dumper/Server/Connection.php": {
 		"cB": 0,
@@ -52022,15 +52102,23 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "/webpack.mix-min.js",
-		"oF": 0,
+		"oAP": "/public/js/app.js",
+		"oF": 3,
 		"sC": 3,
-		"tS": 0
+		"tS": 1
 		}
 	},
 "hooks": [
 	],
 "manualImportLinks": {
+	"/resources/js/app.js": [
+		{
+			"followForSyntaxChecking": 1,
+			"linkedFileAbbreviatedPath": "/resources/js/foundation.js",
+			"position": 0,
+			"type": 1
+			}
+		]
 	},
 "projectAttributes": {
 	"creationDate": 563857245.73787403,
@@ -52422,7 +52510,7 @@
 		},
 	"esLintConfigFileHandlingType": 0,
 	"esLintECMAVersion": 7,
-	"esLintEnvironmentsMask": 1,
+	"esLintEnvironmentsMask": 8195,
 	"esLintRules": {
 		"accessor-pairs": {
 			"active": 0,
@@ -53862,7 +53950,7 @@
 		"createSourceMap": 0,
 		"minifyOutput": 1,
 		"syntaxCheckerStyle": 3,
-		"transpilerStyle": 0
+		"transpilerStyle": 1
 		},
 	"languageDefaultsJSON": {
 		"autoOutputAction": 1,
