@@ -45,8 +45,8 @@
                         <li>created_at: {{$task->created_at}}</li>
                         <li>updated_at: {{$task->updated_at}}</li>
                         <li>date: {{$task->date}}</li>
-                        <li>user_creator: {{$task->user_creator}}</li>
-                        <li>user_assigned: {{$task->user_assigned}}</li>
+                        <li>user_id: {{$task->user_id}}</li>
+                        <li>user_assigned: {{$task->user_assigned_id}}</li>
                         <li>task_type: {{$task->task_type}}</li>
                         <li>brew_number: {{$task->brew_number}}</li>
                         <li>tank_base: {{$task->tank_base}}</li>
@@ -54,6 +54,8 @@
                         <li>description: {{$task->description}}</li>
                         <li>delayable: {{$task->delayable}}</li>
                         <li>completed: {{$task->completed}}</li>
+                        <li></li>
+                        <li>user_name: {{$task->user->name}}</li>
                     </ul>
                 </div>
                 <hr>

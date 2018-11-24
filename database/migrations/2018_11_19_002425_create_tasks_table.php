@@ -17,7 +17,7 @@ class CreateTasksTable extends Migration
             $table->increments('id');
             $table->timestamps();
             $table->date('date');
-            $table->string('user_creator', 255);
+            $table->string('user_id', 255);
             $table->string('user_assigned', 255);
             $table->integer('task_type');
             $table->integer('brew_number');

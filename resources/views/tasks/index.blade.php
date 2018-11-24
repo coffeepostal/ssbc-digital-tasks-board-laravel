@@ -41,7 +41,7 @@
                     <h2>NOPE!</h2>
                 @endswitch
                 <p>Assigned to:
-                @switch($task->user_assigned)
+                @switch($task->user_assigned_id)
                     @case(1)
                     Adam Farnsworth</p>
                     @break

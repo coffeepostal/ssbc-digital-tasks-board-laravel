@@ -31,8 +31,8 @@
                 {{Form::select('tank_alt',['Fermentors' => ['FV1' => 'FV1', 'FV2' => 'FV2', 'FV3' => 'FV3', 'FV4' => 'FV4', 'FVA' => 'FVA', 'FVB' => 'FVB'], 'Brite Tank' => ['BT1' => 'BT1', 'BT2' => 'BT2', 'BT3' => 'BT3', 'BT4' => 'BT4', 'BT5' => 'BT5', 'BT6' => 'BT6', 'BT7' => 'BT7', 'BT8' => 'BT8', 'BT9' => 'BT9', 'BT10' => 'BT10', 'BT11' => 'BT11', 'BT12' => 'BT12', 'BT13' => 'BT13', 'BT14' => 'BT14', 'BT15' => 'BT15', 'BT16' => 'BT16', 'BT17' => 'BT17', 'BT18' => 'BT18', 'BT19' => 'BT19'],], $task->tank_alt, ['placeholder' => 'Pick a tank...'])}}
             </div>
             <div class="small-8 medium-8 large-2 cell">
-                {{Form::label('user_assigned', 'Assigned Employee')}}
-                {{Form::select('user_assigned', [1 => 'Adam Farnsworth', 2 => 'Shannon Vincent', 3 => 'Tor Flemming', 4 => 'Stacia Sasso'], $task->user_assigned, ['placeholder' => 'Assign someone...'])}}
+                {{Form::label('user_assigned_id', 'Assigned Employee')}}
+                {{Form::select('user_assigned_id', [1 => 'Adam Farnsworth', 2 => 'Shannon Vincent', 3 => 'Tor Flemming', 4 => 'Stacia Sasso'], $task->user_assigned_id, ['placeholder' => 'Assign someone...'])}}
             </div>
             <div class="small-2 medium-2 large-1 cell">
                 {{Form::label('delayable', 'Delayable')}}
@@ -47,7 +47,6 @@
                 {{Form::text('description', $task->description, ['placeholder' => 'eg: brew style, count, task description, etc.'])}}
             </div>
             <div class="small-12 cell">
-                {{Form::hidden('user_creator', $task->user_creator)}}
                 {{Form::hidden('_method', 'PUT')}}
                 {{Form::submit('Save Task', ['class' => 'button expanded large'])}}
             </div>

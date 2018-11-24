@@ -15,7 +15,7 @@ class TasksController extends Controller
     public function index()
     {
         // $tasks = Task::all();    //  Return all tasks
-        // return Task::where('user_creator', 'coffeepostal')->get();; //  Returns all tasks craeted by "coffeepostal"
+        // return Task::where('user_id', 'coffeepostal')->get();; //  Returns all tasks craeted by "coffeepostal"
         // $tasks = Task::orderBy('date', 'asc')->take(1)->get();  //  Returns only the first task
         // $tasks = Task::orderBy('date', 'asc')->paginate(12);    //  Paginate after 12 tasks, add {{$tasks->links()}} in Blade template where you want the pagination links
 
@@ -44,7 +44,7 @@ class TasksController extends Controller
         $this->validate($request, [
             'task_type' => 'required',
             'date' => 'required',
-            'user_assigned' => 'required'
+            'user_assigned_id' => 'required'
         ]);
 
         //  Create Task
@@ -54,8 +54,8 @@ class TasksController extends Controller
         $task->brew_number = $request->input('brew_number');
         $task->tank_base = $request->input('tank_base');
         $task->tank_alt = $request->input('tank_alt');
-        $task->user_assigned = $request->input('user_assigned');
-        $task->user_creator = auth()->user()->id;
+        $task->user_assigned_id = $request->input('user_assigned_id');
+        $task->user_id = auth()->user()->id;
         $task->description = $request->input('description');
         $task->delayable = $request->input('delayable');
         $task->completed = $request->input('completed');
@@ -101,7 +101,7 @@ class TasksController extends Controller
         $this->validate($request, [
             'task_type' => 'required',
             'date' => 'required',
-            'user_assigned' => 'required'
+            'user_assigned_id' => 'required'
         ]);
 
         //  Create Task
@@ -111,7 +111,7 @@ class TasksController extends Controller
         $task->brew_number = $request->input('brew_number');
         $task->tank_base = $request->input('tank_base');
         $task->tank_alt = $request->input('tank_alt');
-        $task->user_assigned = $request->input('user_assigned');
+        $task->user_assigned_id = $request->input('user_assigned_id');
         $task->description = $request->input('description');
         $task->delayable = $request->input('delayable');
         $task->completed = $request->input('completed');

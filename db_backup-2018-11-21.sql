@@ -25,7 +25,7 @@ CREATE TABLE `tasks` (
   `created_at` timestamp NULL DEFAULT NULL,
   `updated_at` timestamp NULL DEFAULT NULL,
   `date` date NOT NULL,
-  `user_creator` varchar(255) COLLATE utf8mb4_unicode_ci NOT NULL,
+  `user_id` varchar(255) COLLATE utf8mb4_unicode_ci NOT NULL,
   `user_assigned` varchar(255) COLLATE utf8mb4_unicode_ci NOT NULL,
   `task_type` int(11) NOT NULL,
   `brew_number` int(11) DEFAULT NULL,
@@ -40,7 +40,7 @@ CREATE TABLE `tasks` (
 -- Dumping data for table `tasks`
 --
 
-INSERT INTO `tasks` (`id`, `created_at`, `updated_at`, `date`, `user_creator`, `user_assigned`, `task_type`, `brew_number`, `tank_base`, `tank_alt`, `description`, `delayable`, `completed`) VALUES
+INSERT INTO `tasks` (`id`, `created_at`, `updated_at`, `date`, `user_id`, `user_assigned`, `task_type`, `brew_number`, `tank_base`, `tank_alt`, `description`, `delayable`, `completed`) VALUES
 (1, '2018-10-29 22:05:31', '2018-11-19 00:20:20', '2018-10-30', 'coffeepostal', 'shannon.vincent', 1, 1811, 'FV3', '', 'Helles / Helles', 0, 'incomplete'),
 (2, '2018-10-29 22:10:52', '2018-11-19 00:20:20', '2018-10-29', 'coffeepostal', 'shannon.vincent', 2, 0, 'FV3', '', '(sani)', 0, 'incomplete'),
 (3, '2018-10-29 22:10:52', '2018-11-19 00:20:20', '2018-10-29', 'coffeepostal', 'shannon.vincent', 3, 1792, 'FV2', 'casks', '', 0, 'incomplete'),
