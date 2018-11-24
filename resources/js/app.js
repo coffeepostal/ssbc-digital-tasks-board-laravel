@@ -1,3 +1,4 @@
+// @codekit-prepend "../../node_modules/jquery/dist/jquery.min.js";
 
 /**
  * First we will load all of this project's JavaScript dependencies which
@@ -7,33 +8,35 @@
 
 require('./foundation');
 
-window.Vue = require('vue');
+// window.Vue = require('vue');
+//
+// /**
+//  * The following block of code may be used to automatically register your
+//  * Vue components. It will recursively scan this directory for the Vue
+//  * components and automatically register them with their "basename".
+//  *
+//  * Eg. ./components/ExampleComponent.vue -> <example-component></example-component>
+//  */
+//
+// Vue.component('example-component', require('./components/ExampleComponent.vue'));
+//
+// // const files = require.context('./', true, /\.vue$/i)
+//
+// // files.keys().map(key => {
+// //     return Vue.component(_.last(key.split('/')).split('.')[0], files(key))
+// // })
+//
+// /**
+//  * Next, we will create a fresh Vue application instance and attach it to
+//  * the page. Then, you may begin adding components to this application
+//  * or customize the JavaScript scaffolding to fit your unique needs.
+//  */
+//
+// const app = new Vue({
+//     el: '#app'
+// });
 
-/**
- * The following block of code may be used to automatically register your
- * Vue components. It will recursively scan this directory for the Vue
- * components and automatically register them with their "basename".
- *
- * Eg. ./components/ExampleComponent.vue -> <example-component></example-component>
- */
-
-Vue.component('example-component', require('./components/ExampleComponent.vue'));
-
-// const files = require.context('./', true, /\.vue$/i)
-
-// files.keys().map(key => {
-//     return Vue.component(_.last(key.split('/')).split('.')[0], files(key))
-// })
-
-/**
- * Next, we will create a fresh Vue application instance and attach it to
- * the page. Then, you may begin adding components to this application
- * or customize the JavaScript scaffolding to fit your unique needs.
- */
-
-const app = new Vue({
-    el: '#app'
-});
+// @codekit-append "../../node_modules/foundation-sites/dist/js/foundation.min.js";
 
 //  Test Browser Support of Date Input, and Replace It If it Fails
 if ( $('#test')[0].type != 'date' ) $('#form-create-date').datepicker();

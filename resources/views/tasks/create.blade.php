@@ -16,7 +16,7 @@
             </div>
             <div class="small-6 medium-4 large-2 cell">
                 {{Form::label('date', 'Task Date')}}
-                {{Form::date('date', \Carbon\Carbon::now(), ['id' => 'form-create-date','placeholder' => 'YYYY-MM-DD'])}}
+                {{Form::date('date', \Carbon\Carbon::now(), ['data-toggle' => 'datepicker','placeholder' => 'YYYY-MM-DD'])}}
             </div>
             <div class="small-6 medium-4 large-2 cell">
                 {{Form::label('brew_number', 'Brew Number')}}

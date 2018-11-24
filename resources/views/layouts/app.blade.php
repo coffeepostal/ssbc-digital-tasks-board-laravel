@@ -10,7 +10,10 @@
     <title>{{config('app.name', 'SSBC Digital Task Board')}}</title>
 
     <!-- Scripts -->
-    <script src="{{ asset('js/app.js') }}" defer></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="{{ asset('js/app-min.js') }}" defer></script>
+    <script src="{{ asset('js/foundation.min.js') }}"></script>
+    <script src="{{ asset('js/datepicker.min.js') }}"></script>
 
     <!-- Fonts -->
     <link rel="dns-prefetch" href="https://fonts.gstatic.com">
@@ -25,8 +28,9 @@
 
     @yield('content')
 
-    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
-    <script src="{{asset('js/app.js')}}" type="text/javascript"></script>
-    <script type="text/javascript">$(document).foundation();</script>
+    <script type="text/javascript">
+        $(document).foundation();
+        $('[data-toggle="datepicker"]').datepicker({format: 'yyyy-mm-dd'});
+    </script>
 </body>
 </html>

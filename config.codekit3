@@ -100,11 +100,11 @@
 		"oAP": "/app/Http/Controllers/Controller.php",
 		"oF": 0
 		},
-	"/app/Http/Controllers/HomeController.php": {
+	"/app/Http/Controllers/DashboardController.php": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "/app/Http/Controllers/HomeController.php",
+		"oAP": "/app/Http/Controllers/DashboardController.php",
 		"oF": 0
 		},
 	"/app/Http/Controllers/PagesController.php": {
@@ -510,6 +510,16 @@
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
+		},
+	"/node_modules/foundation-sites/dist/js/foundation.min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/node_modules/foundation-sites/dist/js/foundation.min-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 1
 		},
 	"/node_modules/foundation-sites/scss/_global.scss": {
 		"aP": 0,
@@ -1863,6 +1873,16 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"/node_modules/jquery/dist/jquery.min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/node_modules/jquery/dist/jquery.min-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 1
+		},
 	"/package-lock.json": {
 		"ft": 524288,
 		"oA": 1,
@@ -1936,6 +1956,33 @@
 		"oF": 0,
 		"sC": 3,
 		"tS": 1
+		},
+	"/public/js/datepicker.min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/public/js/datepicker.min-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 1
+		},
+	"/public/js/foundation.min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/public/js/foundation.min-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 1
+		},
+	"/public/js/foundation.min.js.map": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/public/js/foundation.min.js.map",
+		"oF": 0
 		},
 	"/public/robots.txt": {
 		"cB": 0,
@@ -2055,9 +2102,9 @@
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
-		"oA": 1,
-		"oAP": "/resources/js/foundation-min.js",
-		"oF": 0,
+		"oA": 0,
+		"oAP": "/public/js/foundation-min.js",
+		"oF": 2,
 		"sC": 3,
 		"tS": 1
 		},
@@ -2163,11 +2210,11 @@
 		"oAP": "/resources/views/auth/verify.blade.php",
 		"oF": 0
 		},
-	"/resources/views/home.blade.php": {
+	"/resources/views/dashboard.blade.php": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "/resources/views/home.blade.php",
+		"oAP": "/resources/views/dashboard.blade.php",
 		"oF": 0
 		},
 	"/resources/views/inc/messages.blade.php": {
@@ -2329,6 +2376,20 @@
 		"oAP": "/storage/framework/views/.gitignore",
 		"oF": 0
 		},
+	"/storage/framework/views/0106da0b172b0a60580f211d40850b0ebcab45cf.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/storage/framework/views/0106da0b172b0a60580f211d40850b0ebcab45cf.php",
+		"oF": 0
+		},
+	"/storage/framework/views/07e4e0054a8361d719407e1c219b7f67619ab5c6.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/storage/framework/views/07e4e0054a8361d719407e1c219b7f67619ab5c6.php",
+		"oF": 0
+		},
 	"/storage/framework/views/0849a2b2baac6fdd41e346df1c8fed777b5f6822.php": {
 		"cB": 0,
 		"ft": 8192,
@@ -2390,6 +2451,13 @@
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "/storage/framework/views/5f20ac0476be812e01e65cb544de3b86fe5e0670.php",
+		"oF": 0
+		},
+	"/storage/framework/views/649ec8602aef43121adfa7bc94fa0d11bb30d7c2.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/storage/framework/views/649ec8602aef43121adfa7bc94fa0d11bb30d7c2.php",
 		"oF": 0
 		},
 	"/storage/framework/views/868bba3faed92c03b714cbe39944a780fe6e352e.php": {
@@ -52111,14 +52179,6 @@
 "hooks": [
 	],
 "manualImportLinks": {
-	"/resources/js/app.js": [
-		{
-			"followForSyntaxChecking": 1,
-			"linkedFileAbbreviatedPath": "/resources/js/foundation.js",
-			"position": 0,
-			"type": 1
-			}
-		]
 	},
 "projectAttributes": {
 	"creationDate": 563857245.73787403,

@@ -17,6 +17,11 @@
         "laravel-mix": "^2.0",
         "lodash": "^4.17.5",
         "popper.js": "^1.12",
-        "vue": "^2.5.17"
+        "vue": "^2.5.17",
+        "webpack": "^4.26.0"
+    },
+    "dependencies": {
+        "@chenfengyuan/datepicker": "^1.0.1",
+        "flatpickr": "^4.5.2"
     }
 }

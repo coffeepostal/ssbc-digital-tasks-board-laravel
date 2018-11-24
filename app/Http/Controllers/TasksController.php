@@ -55,7 +55,7 @@ class TasksController extends Controller
         $task->tank_base = $request->input('tank_base');
         $task->tank_alt = $request->input('tank_alt');
         $task->user_assigned = $request->input('user_assigned');
-        $task->user_creator = $request->input('user_creator');
+        $task->user_creator = auth()->user()->id;
         $task->description = $request->input('description');
         $task->delayable = $request->input('delayable');
         $task->completed = $request->input('completed');
@@ -112,7 +112,6 @@ class TasksController extends Controller
         $task->tank_base = $request->input('tank_base');
         $task->tank_alt = $request->input('tank_alt');
         $task->user_assigned = $request->input('user_assigned');
-        $task->user_creator = $request->input('user_creator');
         $task->description = $request->input('description');
         $task->delayable = $request->input('delayable');
         $task->completed = $request->input('completed');
