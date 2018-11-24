@@ -3,10 +3,12 @@
         <ul class="dropdown menu" data-dropdown-menu>
             <li class="menu-text"><a class="navbar-brand" href="{{ url('/') }}">{{ config('app.name', 'Laravel') }}</a></li>
             <li>
-                <a href="/tasks">Tasks</a>
-                <ul class="menu vertical">
-                    <li><a href="/tasks/create">Create New Task</a></li>
-                </ul>
+                    <a href="/tasks">Tasks</a>
+                @if (!Auth::guest())
+                    <ul class="menu vertical">
+                        <li><a href="/tasks/create">Create New Task</a></li>
+                    </ul>
+                @endif
             </li>
             <li><a href="/task-board">Task Board</a></li>
         </ul>

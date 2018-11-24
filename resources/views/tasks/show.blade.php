@@ -59,12 +59,18 @@
                     </ul>
                 </div>
                 <hr>
-                <a href="/tasks/{{$task->id}}/edit" class="button">Edit</a>
+                @if (!Auth::guest())
+                    @if (Auth::user()->user_type <= $task->user_type_access)
 
-                {!! Form::open(['action' => ['TasksController@destroy', $task->id], 'method' => 'POST']) !!}
-                    {{Form::hidden('_method', 'DELETE')}}
-                    {{Form::submit('Delete', ['class' => 'button alert'])}}
-                {!! Form::close() !!}
+                        <a href="/tasks/{{$task->id}}/edit" class="button">Edit</a>
+
+                        {!! Form::open(['action' => ['TasksController@destroy', $task->id], 'method' => 'POST']) !!}
+                        {{Form::hidden('_method', 'DELETE')}}
+                        {{Form::submit('Delete', ['class' => 'button alert'])}}
+                        {!! Form::close() !!}
+
+                    @endif
+                @endif
             </div>
         </div>
     </div>

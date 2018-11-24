@@ -8,6 +8,16 @@ use App\Task;
 class TasksController extends Controller
 {
     /**
+     * Create a new controller instance.
+     *
+     * @return void
+     */
+    public function __construct()
+    {
+        $this->middleware('auth', ['except' => ['index', 'show']]);
+    }
+
+    /**
      * Display a listing of the resource.
      *
      * @return \Illuminate\Http\Response
@@ -86,6 +96,12 @@ class TasksController extends Controller
     public function edit($id)
     {
         $task = Task::find($id);
+
+        //  Check user type
+        if(auth()->user()->user_type > 1){
+            return redirect('/tasks')->with('error', 'Access unavailable with your credentials.');
+        }
+
         return view('tasks.edit')->with('task', $task);
     }
 
