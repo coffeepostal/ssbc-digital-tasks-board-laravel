@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Task;
+use App\Classes\TaskBoard;
 
 class TasksController extends Controller
 {

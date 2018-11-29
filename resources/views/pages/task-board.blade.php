@@ -86,37 +86,31 @@
             </div>
             <div class="cell medium-12 large-auto <?php echo ($date_dayOfTheWeek == "Monday" ? 'monday current-day' : 'monday'); ?>">
 
-                <?php // loopDayTask($result_array, "Monday", 1); ?>
+                {{TaskBoard::loopDayTask($tasks, 'Monday', 1)}}
 
             </div>
             <div class="cell medium-12 large-auto <?php echo ($date_dayOfTheWeek == "Tuesday" ? 'tuesday current-day' : 'tuesday'); ?>">
-
-                <?php // loopDayTask($result_array, "Tuesday", 1); ?>
+                {{TaskBoard::loopDayTask($tasks, 'Tuesday', 1)}}
 
             </div>
             <div class="cell medium-12 large-auto <?php echo ($date_dayOfTheWeek == "Wednesday" ? 'wednesday current-day' : 'wednesday'); ?>">
-
-                <?php // loopDayTask($result_array, "Wednesday", 1); ?>
+                {{TaskBoard::loopDayTask($tasks, 'Wednesday', 1)}}
 
             </div>
             <div class="cell medium-12 large-auto <?php echo ($date_dayOfTheWeek == "Thursday" ? 'thursday current-day' : 'thursday'); ?>">
-
-                <?php // loopDayTask($result_array, "Thursday", 1); ?>
+                {{TaskBoard::loopDayTask($tasks, 'Thursday', 1)}}
 
             </div>
             <div class="cell medium-12 large-auto <?php echo ($date_dayOfTheWeek == "Friday" ? 'friday current-day' : 'friday'); ?>">
-
-                <?php // loopDayTask($result_array, "Friday", 1); ?>
+                {{TaskBoard::loopDayTask($tasks, 'Friday', 1)}}
 
             </div>
             <div class="cell medium-12 large-auto <?php echo ($date_dayOfTheWeek == "Saturday" ? 'saturday current-day' : 'saturday'); ?>">
-
-                <?php // loopDayTask($result_array, "Saturday", 1); ?>
+                {{TaskBoard::loopDayTask($tasks, 'Saturday', 1)}}
 
             </div>
             <div class="cell medium-12 large-auto <?php echo ($date_dayOfTheWeek == "Sunday" ? 'sunday current-day' : 'sunday'); ?>">
-
-                <?php // loopDayTask($result_array, "Sunday", 1); ?>
+                {{TaskBoard::loopDayTask($tasks, 'Sunday', 1)}}
 
             </div>
         </div>
@@ -127,37 +121,37 @@
             </div>
             <div class="cell medium-12 large-auto <?php echo ($date_dayOfTheWeek == "Monday" ? 'monday current-day' : 'monday'); ?>">
 
-                <?php // loopDayTask($result_array, "Monday", 2); ?>
+                {{TaskBoard::loopDayTask($tasks, 'Monday', 2)}}
 
             </div>
             <div class="cell medium-12 large-auto <?php echo ($date_dayOfTheWeek == "Tuesday" ? 'tuesday current-day' : 'tuesday'); ?>">
 
-                <?php // loopDayTask($result_array, "Tuesday", 2); ?>
+                {{TaskBoard::loopDayTask($tasks, 'Tuesday', 2)}}
 
             </div>
             <div class="cell medium-12 large-auto <?php echo ($date_dayOfTheWeek == "Wednesday" ? 'wednesday current-day' : 'wednesday'); ?>">
 
-                <?php // loopDayTask($result_array, "Wednesday", 2); ?>
+                {{TaskBoard::loopDayTask($tasks, 'Wednesday', 2)}}
 
             </div>
             <div class="cell medium-12 large-auto <?php echo ($date_dayOfTheWeek == "Thursday" ? 'thursday current-day' : 'thursday'); ?>">
 
-                <?php // loopDayTask($result_array, "Thursday", 2); ?>
+                {{TaskBoard::loopDayTask($tasks, 'Thursday', 2)}}
 
             </div>
             <div class="cell medium-12 large-auto <?php echo ($date_dayOfTheWeek == "Friday" ? 'friday current-day' : 'friday'); ?>">
 
-                <?php // loopDayTask($result_array, "Friday", 2); ?>
+                {{TaskBoard::loopDayTask($tasks, 'Friday', 2)}}
 
             </div>
             <div class="cell medium-12 large-auto <?php echo ($date_dayOfTheWeek == "Saturday" ? 'saturday current-day' : 'saturday'); ?>">
 
-                <?php // loopDayTask($result_array, "Saturday", 2); ?>
+                {{TaskBoard::loopDayTask($tasks, 'Saturday', 2)}}
 
             </div>
             <div class="cell medium-12 large-auto <?php echo ($date_dayOfTheWeek == "Sunday" ? 'sunday current-day' : 'sunday'); ?>">
 
-                <?php // loopDayTask($result_array, "Sunday", 2); ?>
+                {{TaskBoard::loopDayTask($tasks, 'Sunday', 2)}}
 
             </div>
         </div>
@@ -168,37 +162,37 @@
             </div>
             <div class="cell medium-12 large-auto <?php echo ($date_dayOfTheWeek == "Monday" ? 'monday current-day' : 'monday'); ?>">
 
-                <?php // loopDayTask($result_array, "Monday", 3); ?>
+                {{TaskBoard::loopDayTask($tasks, 'Monday', 3)}}
 
             </div>
             <div class="cell medium-12 large-auto <?php echo ($date_dayOfTheWeek == "Tuesday" ? 'tuesday current-day' : 'tuesday'); ?>">
 
-                <?php // loopDayTask($result_array, "Tuesday", 3); ?>
+                {{TaskBoard::loopDayTask($tasks, 'Tuesday', 3)}}
 
             </div>
             <div class="cell medium-12 large-auto <?php echo ($date_dayOfTheWeek == "Wednesday" ? 'wednesday current-day' : 'wednesday'); ?>">
 
-                <?php // loopDayTask($result_array, "Wednesday", 3); ?>
+                {{TaskBoard::loopDayTask($tasks, 'Wednesday', 3)}}
 
             </div>
             <div class="cell medium-12 large-auto <?php echo ($date_dayOfTheWeek == "Thursday" ? 'thursday current-day' : 'thursday'); ?>">
 
-                <?php // loopDayTask($result_array, "Thursday", 3); ?>
+                {{TaskBoard::loopDayTask($tasks, 'Thursday', 3)}}
 
             </div>
             <div class="cell medium-12 large-auto <?php echo ($date_dayOfTheWeek == "Friday" ? 'friday current-day' : 'friday'); ?>">
 
-                <?php // loopDayTask($result_array, "Friday", 3); ?>
+                {{TaskBoard::loopDayTask($tasks, 'Friday', 3)}}
 
             </div>
             <div class="cell medium-12 large-auto <?php echo ($date_dayOfTheWeek == "Saturday" ? 'saturday current-day' : 'saturday'); ?>">
 
-                <?php // loopDayTask($result_array, "Saturday", 3); ?>
+                {{TaskBoard::loopDayTask($tasks, 'Saturday', 3)}}
 
             </div>
             <div class="cell medium-12 large-auto <?php echo ($date_dayOfTheWeek == "Sunday" ? 'sunday current-day' : 'sunday'); ?>">
 
-                <?php // loopDayTask($result_array, "Sunday", 3); ?>
+                {{TaskBoard::loopDayTask($tasks, 'Sunday', 3)}}
 
             </div>
         </div>
@@ -209,37 +203,37 @@
             </div>
             <div class="cell medium-12 large-auto <?php echo ($date_dayOfTheWeek == "Monday" ? 'monday current-day' : 'monday'); ?>">
 
-                <?php // loopDayTask($result_array, "Monday", 4); ?>
+                {{TaskBoard::loopDayTask($tasks, 'Monday', 4)}}
 
             </div>
             <div class="cell medium-12 large-auto <?php echo ($date_dayOfTheWeek == "Tuesday" ? 'tuesday current-day' : 'tuesday'); ?>">
 
-                <?php // loopDayTask($result_array, "Tuesday", 4); ?>
+                {{TaskBoard::loopDayTask($tasks, 'Tuesday', 4)}}
 
             </div>
             <div class="cell medium-12 large-auto <?php echo ($date_dayOfTheWeek == "Wednesday" ? 'wednesday current-day' : 'wednesday'); ?>">
 
-                <?php // loopDayTask($result_array, "Wednesday", 4); ?>
+                {{TaskBoard::loopDayTask($tasks, 'Wednesday', 4)}}
 
             </div>
             <div class="cell medium-12 large-auto <?php echo ($date_dayOfTheWeek == "Thursday" ? 'thursday current-day' : 'thursday'); ?>">
 
-                <?php // loopDayTask($result_array, "Thursday", 4); ?>
+                {{TaskBoard::loopDayTask($tasks, 'Thursday', 4)}}
 
             </div>
             <div class="cell medium-12 large-auto <?php echo ($date_dayOfTheWeek == "Friday" ? 'friday current-day' : 'friday'); ?>">
 
-                <?php // loopDayTask($result_array, "Friday", 4); ?>
+                {{TaskBoard::loopDayTask($tasks, 'Friday', 4)}}
 
             </div>
             <div class="cell medium-12 large-auto <?php echo ($date_dayOfTheWeek == "Saturday" ? 'saturday current-day' : 'saturday'); ?>">
 
-                <?php // loopDayTask($result_array, "Saturday", 4); ?>
+                {{TaskBoard::loopDayTask($tasks, 'Saturday', 4)}}
 
             </div>
             <div class="cell medium-12 large-auto <?php echo ($date_dayOfTheWeek == "Sunday" ? 'sunday current-day' : 'sunday'); ?>">
 
-                <?php // loopDayTask($result_array, "Sunday", 4); ?>
+                {{TaskBoard::loopDayTask($tasks, 'Sunday', 4)}}
 
             </div>
         </div>
@@ -250,37 +244,37 @@
             </div>
             <div class="cell medium-12 large-auto <?php echo ($date_dayOfTheWeek == "Monday" ? 'monday current-day' : 'monday'); ?>">
 
-                <?php // loopDayTask($result_array, "Monday", 5); ?>
+                {{TaskBoard::loopDayTask($tasks, 'Monday', 5)}}
 
             </div>
             <div class="cell medium-12 large-auto <?php echo ($date_dayOfTheWeek == "Tuesday" ? 'tuesday current-day' : 'tuesday'); ?>">
 
-                <?php // loopDayTask($result_array, "Tuesday", 5); ?>
+                {{TaskBoard::loopDayTask($tasks, 'Tuesday', 5)}}
 
             </div>
             <div class="cell medium-12 large-auto <?php echo ($date_dayOfTheWeek == "Wednesday" ? 'wednesday current-day' : 'wednesday'); ?>">
 
-                <?php // loopDayTask($result_array, "Wednesday", 5); ?>
+                {{TaskBoard::loopDayTask($tasks, 'Wednesday', 5)}}
 
             </div>
             <div class="cell medium-12 large-auto <?php echo ($date_dayOfTheWeek == "Thursday" ? 'thursday current-day' : 'thursday'); ?>">
 
-                <?php // loopDayTask($result_array, "Thursday", 5); ?>
+                {{TaskBoard::loopDayTask($tasks, 'Thursday', 5)}}
 
             </div>
             <div class="cell medium-12 large-auto <?php echo ($date_dayOfTheWeek == "Friday" ? 'friday current-day' : 'friday'); ?>">
 
-                <?php // loopDayTask($result_array, "Friday", 5); ?>
+                {{TaskBoard::loopDayTask($tasks, 'Friday', 5)}}
 
             </div>
             <div class="cell medium-12 large-auto <?php echo ($date_dayOfTheWeek == "Saturday" ? 'saturday current-day' : 'saturday'); ?>">
 
-                <?php // loopDayTask($result_array, "Saturday", 5); ?>
+                {{TaskBoard::loopDayTask($tasks, 'Saturday', 5)}}
 
             </div>
             <div class="cell medium-12 large-auto <?php echo ($date_dayOfTheWeek == "Sunday" ? 'sunday current-day' : 'sunday'); ?>">
 
-                <?php // loopDayTask($result_array, "Sunday", 5); ?>
+                {{TaskBoard::loopDayTask($tasks, 'Sunday', 5)}}
 
             </div>
         </div>
@@ -291,37 +285,37 @@
             </div>
             <div class="cell medium-12 large-auto <?php echo ($date_dayOfTheWeek == "Monday" ? 'monday current-day' : 'monday'); ?>">
 
-                <?php // loopDayTask($result_array, "Monday", 6); ?>
+                {{TaskBoard::loopDayTask($tasks, 'Monday', 6)}}
 
             </div>
             <div class="cell medium-12 large-auto <?php echo ($date_dayOfTheWeek == "Tuesday" ? 'tuesday current-day' : 'tuesday'); ?>">
 
-                <?php // loopDayTask($result_array, "Tuesday", 6); ?>
+                {{TaskBoard::loopDayTask($tasks, 'Tuesday', 6)}}
 
             </div>
             <div class="cell medium-12 large-auto <?php echo ($date_dayOfTheWeek == "Wednesday" ? 'wednesday current-day' : 'wednesday'); ?>">
 
-                <?php // loopDayTask($result_array, "Wednesday", 6); ?>
+                {{TaskBoard::loopDayTask($tasks, 'Wednesday', 6)}}
 
             </div>
             <div class="cell medium-12 large-auto <?php echo ($date_dayOfTheWeek == "Thursday" ? 'thursday current-day' : 'thursday'); ?>">
 
-                <?php // loopDayTask($result_array, "Thursday", 6); ?>
+                {{TaskBoard::loopDayTask($tasks, 'Thursday', 6)}}
 
             </div>
             <div class="cell medium-12 large-auto <?php echo ($date_dayOfTheWeek == "Friday" ? 'friday current-day' : 'friday'); ?>">
 
-                <?php // loopDayTask($result_array, "Friday", 6); ?>
+                {{TaskBoard::loopDayTask($tasks, 'Friday', 6)}}
 
             </div>
             <div class="cell medium-12 large-auto <?php echo ($date_dayOfTheWeek == "Saturday" ? 'saturday current-day' : 'saturday'); ?>">
 
-                <?php // loopDayTask($result_array, "Saturday", 6); ?>
+                {{TaskBoard::loopDayTask($tasks, 'Saturday', 6)}}
 
             </div>
             <div class="cell medium-12 large-auto <?php echo ($date_dayOfTheWeek == "Sunday" ? 'sunday current-day' : 'sunday'); ?>">
 
-                <?php // loopDayTask($result_array, "Sunday", 6); ?>
+                {{TaskBoard::loopDayTask($tasks, 'Sunday', 6)}}
 
             </div>
         </div>
@@ -332,37 +326,37 @@
             </div>
             <div class="cell medium-12 large-auto <?php echo ($date_dayOfTheWeek == "Monday" ? 'monday current-day' : 'monday'); ?>">
 
-                <?php // loopDayTask($result_array, "Monday", 7); ?>
+                {{TaskBoard::loopDayTask($tasks, 'Monday', 7)}}
 
             </div>
             <div class="cell medium-12 large-auto <?php echo ($date_dayOfTheWeek == "Tuesday" ? 'tuesday current-day' : 'tuesday'); ?>">
 
-                <?php // loopDayTask($result_array, "Tuesday", 7); ?>
+                {{TaskBoard::loopDayTask($tasks, 'Tuesday', 7)}}
 
             </div>
             <div class="cell medium-12 large-auto <?php echo ($date_dayOfTheWeek == "Wednesday" ? 'wednesday current-day' : 'wednesday'); ?>">
 
-                <?php // loopDayTask($result_array, "Wednesday", 7); ?>
+                {{TaskBoard::loopDayTask($tasks, 'Wednesday', 7)}}
 
             </div>
             <div class="cell medium-12 large-auto <?php echo ($date_dayOfTheWeek == "Thursday" ? 'thursday current-day' : 'thursday'); ?>">
 
-                <?php // loopDayTask($result_array, "Thursday", 7); ?>
+                {{TaskBoard::loopDayTask($tasks, 'Thursday', 7)}}
 
             </div>
             <div class="cell medium-12 large-auto <?php echo ($date_dayOfTheWeek == "Friday" ? 'friday current-day' : 'friday'); ?>">
 
-                <?php // loopDayTask($result_array, "Friday", 7); ?>
+                {{TaskBoard::loopDayTask($tasks, 'Friday', 7)}}
 
             </div>
             <div class="cell medium-12 large-auto <?php echo ($date_dayOfTheWeek == "Saturday" ? 'saturday current-day' : 'saturday'); ?>">
 
-                <?php // loopDayTask($result_array, "Saturday", 7); ?>
+                {{TaskBoard::loopDayTask($tasks, 'Saturday', 7)}}
 
             </div>
             <div class="cell medium-12 large-auto <?php echo ($date_dayOfTheWeek == "Sunday" ? 'sunday current-day' : 'sunday'); ?>">
 
-                <?php // loopDayTask($result_array, "Sunday", 7); ?>
+                {{TaskBoard::loopDayTask($tasks, 'Sunday', 7)}}
 
             </div>
         </div>

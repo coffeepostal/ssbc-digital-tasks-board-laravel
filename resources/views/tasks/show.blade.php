@@ -41,32 +41,32 @@
 
                 <div class="task">
                     <ul>
-                        <li>id: {{$task->id}}</li>
-                        <li>created_at: {{$task->created_at}}</li>
-                        <li>updated_at: {{$task->updated_at}}</li>
-                        <li>date: {{$task->date}}</li>
-                        <li>user_id: {{$task->user_id}}</li>
-                        <li>user_assigned: {{$task->user_assigned_id}}</li>
-                        <li>task_type: {{$task->task_type}}</li>
-                        <li>brew_number: {{$task->brew_number}}</li>
-                        <li>tank_base: {{$task->tank_base}}</li>
-                        <li>tank_alt: {{$task->tank_alt}}</li>
-                        <li>description: {{$task->description}}</li>
-                        <li>delayable: {{$task->delayable}}</li>
-                        <li>completed: {{$task->completed}}</li>
+                        <li>id: {{ $task->id }}</li>
+                        <li>created_at: {{ $task->created_at }}</li>
+                        <li>updated_at: {{ $task->updated_at }}</li>
+                        <li>date: {{ $task->date }}</li>
+                        <li>user_id: {{ $task->user_id }}</li>
+                        <li>user_assigned: {{ $task->user_assigned_id }}</li>
+                        <li>task_type: {{ $task->task_type }}</li>
+                        <li>brew_number: {{ $task->brew_number }}</li>
+                        <li>tank_base: {{ $task->tank_base }}</li>
+                        <li>tank_alt: {{ $task->tank_alt }}</li>
+                        <li>description: {{ $task->description }}</li>
+                        <li>delayable: {{ $task->delayable }}</li>
+                        <li>completed: {{ $task->completed }}</li>
                         <li></li>
-                        <li>user_name: {{$task->user->name}}</li>
+                        <li>user_name: {{ $task->user->name }}</li>
                     </ul>
                 </div>
                 <hr>
                 @if (!Auth::guest())
                     @if (Auth::user()->user_type <= $task->user_type_access)
 
-                        <a href="/tasks/{{$task->id}}/edit" class="button">Edit</a>
+                        <a href="/tasks/{{ $task->id }}/edit" class="button">Edit</a>
 
                         {!! Form::open(['action' => ['TasksController@destroy', $task->id], 'method' => 'POST']) !!}
-                        {{Form::hidden('_method', 'DELETE')}}
-                        {{Form::submit('Delete', ['class' => 'button alert'])}}
+                        {{ Form::hidden('_method', 'DELETE') }}
+                        {{ Form::submit('Delete', ['class' => 'button alert']) }}
                         {!! Form::close() !!}
 
                     @endif

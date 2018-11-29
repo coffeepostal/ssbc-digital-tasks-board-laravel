@@ -65,7 +65,7 @@ return [
     |
     */
 
-    'timezone' => 'UTC',
+    'timezone' => 'PST',
 
     /*
     |--------------------------------------------------------------------------
@@ -230,6 +230,7 @@ return [
         //  Third Party Aliases
         'Form' => Collective\Html\FormFacade::class,
         'Html' => Collective\Html\HtmlFacade::class,
+        'TaskBoard' => 'App\Classes\TaskBoard',
 
     ],
 

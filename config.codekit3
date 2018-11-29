@@ -44,6 +44,13 @@
 		"oAP": "/.gitignore",
 		"oF": 0
 		},
+	"/app/Classes/TaskBoard.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/app/Classes/TaskBoard.php",
+		"oF": 0
+		},
 	"/app/Console/Kernel.php": {
 		"cB": 0,
 		"ft": 8192,
@@ -413,6 +420,13 @@
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "/db_backup-2018-11-21.sql",
+		"oF": 0
+		},
+	"/db_backup-2018-11-26.sql": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/db_backup-2018-11-26.sql",
 		"oF": 0
 		},
 	"/node_modules": {
